@@ -1,0 +1,5 @@
+from node:14-stretch
+
+WORKDIR demo
+
+CMD ["node", "client.js"]
